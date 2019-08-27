@@ -7,7 +7,7 @@ class App < Sinatra::Base
   end
   
   post '/team' do
-    erb :team
+    "Team Name: #{params[:name]} #{params[:favorite_food]}
   end
 
 end
